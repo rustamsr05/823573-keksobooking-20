@@ -57,8 +57,8 @@ var getRandomArray = function (array) {
 var renderBtn = function (ads) {
   var adsElement = adsBtnTemplate.cloneNode(true);
   var image = adsElement.querySelector('img');
-  adsElement.style.left = ads.location.x; // не пойму как записать координаты!!!
-  adsElement.style.top = ads.location.y;
+  adsElement.style.left = ads.location.x + 'px';
+  adsElement.style.top = ads.location.y + 'px';
   image.src = ads.author.avatar;
   image.alt = ads.offer.title;
   return adsElement;
