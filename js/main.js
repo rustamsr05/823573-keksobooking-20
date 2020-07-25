@@ -82,8 +82,8 @@ for (var i = 0; i < adsQuantity; i++) {
     },
 
     location: {
-      x: xCoordinate,
-      y: yCoordinate
+      x: xCoordinate - 25,
+      y: yCoordinate + 165
     }
   };
 }
